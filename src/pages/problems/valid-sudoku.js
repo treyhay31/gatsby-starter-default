@@ -63,7 +63,7 @@ const ValidSudokuPage = () => (
             </p>
         <hr />
         <TestedCode isSuccess={true} test="This is passing" />
-        <TestedCode isSuccess={false} test="This is failing" />    
+        <TestedCode isSuccess={false} test="This is failing" />
     </div>
 )
 
