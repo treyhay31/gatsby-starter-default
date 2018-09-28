@@ -53,7 +53,7 @@ const ValidSudokuPage = () => (
             having good communication/ubiquitous language often delineates 
             the boundary between success and failure. If the diagram 
             doesn't make sense, try playing a 
-            {" "}<a href="https://martinfowler.com/bliki/UbiquitousLanguage.html">game of sudoku and get familiar here!</a></p>
+            {" "}<a href="https://www.websudoku.com/">game of sudoku and get familiar here!</a></p>
         <h2>The code that binds them!</h2>
         <p>We are speaking the same language, playing the same games, 
             thinking the same thoughts... I think, and having a great time doing it.
@@ -110,7 +110,7 @@ const SudokuSvg = () => (
             <rect x="25" y="85" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
             <rect x="15" y="85" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
             <rect x="05" y="85" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
-            <text x="7" y="83" style={{fontSize: "0.3em"}}>Row =></text>
+            <text x="7" y="83" style={{fontSize: "0.3em"}}>Row</text>
 
             
             <rect x="85" y="85" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
@@ -122,8 +122,7 @@ const SudokuSvg = () => (
             <rect x="85" y="25" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
             <rect x="85" y="15" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
             <rect x="85" y="05" width="10" height="10" fill="#F7F18B" stroke="grey" /> 
-            <text x="60" y="60" transform="rotate(-90,83,60)" style={{fontSize: "0.3em"}}>Column =></text>
-
+            <text x="60" y="60" transform="rotate(-90,83,60)" style={{fontSize: "0.3em"}}>Column</text>
         </svg>
         <hr />
     </div>
