@@ -22,7 +22,7 @@ const ValidSudokuPage = ({showTests = true}) => {
                 The funny thing about rules is that
                 you would think that they confine creativity.
                 But the truth is that they foster creativity!
-                For example, the app <a href="www.vine.com">Vine</a> has a rule
+                For example, the app <a href="https://vine.co/">Vine (archived now...)</a> has a rule
                 that users can only post videos of six seconds
                 in length. This rule forces people to get their
                 point/story across in six seconds or less. They
