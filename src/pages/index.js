@@ -9,7 +9,7 @@ const IndexPage = () => (
       <ul>
           <li><Link to="/problems/">Practice Problems</Link></li>
           <li><Link to="/data/">Data Science/Machine Learning</Link></li>
-          <li><Link to="/software/">Software Design & Coding Practices</Link></li>
+          <li><Link to="/software/">Software Design{ " & " }Coding Practices</Link></li>
       </ul>
     <p>Hopefully there is some value in there somewhere and things
         have been explained properly. If not, let me know here mailto:dude@treyhayhayhayyy.me</p>
