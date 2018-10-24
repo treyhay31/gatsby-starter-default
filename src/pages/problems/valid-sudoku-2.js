@@ -67,7 +67,9 @@ class ValidSudoku2Page extends Component {
 				<SudokuSvg />
 				<h2>Now Do The Tests...</h2>
 					<p>Observe the magnificence of these tests and the cleanliness of 
-						their implementing code! But honestly, stop making fun of me... this works, allegedly.</p>
+						their implementing code! But honestly, stop making fun of me... this works, allegedly.
+						Checking for duplicates in the rows and the grids will force us to possibly 
+						raise one eyebrow. Meanwhile, finding duplicates in a grid will provide  </p>
 				<button onClick={this.onClick}>Show {this.state.showTests ? 'Tests' : 'Codes'}!</button>
 				{
 						this.state.showTests ? this.showTests() : this.showCode()
