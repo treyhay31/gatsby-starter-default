@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const ValidSudoku3Page = () => (
     <div>
-        <h1>Validd Sudoku - P3</h1>
+        <h1>Valid Sudoku - P3</h1>
 				<p>Coming soon! Hoping to <a href="https://www.jamesshore.com/Blog/Red-Green-Refactor.html">refactor</a> all of it!</p>
 				<h1>
 					<Link to="/problems/valid-sudoku">Valid Sudoku</Link>
