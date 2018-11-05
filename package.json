@@ -8,6 +8,7 @@
     "gatsby-cli": "^1.1.50",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
+    "npm": "^6.4.1",
     "react-gist": "^1.2.1",
     "react-helmet": "^5.2.0",
     "uuid": "^3.3.2"
