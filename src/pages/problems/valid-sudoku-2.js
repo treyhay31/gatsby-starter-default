@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
+import Gist from 'react-gist'
 import SudokuSvg from '../../components/problems/sudoku/sudoku-svg';
 
 class ValidSudoku2Page extends Component {
 	state = {
-		showTests: false
+		showTests: true
 	};
 
 	onClick = () => {
@@ -13,8 +14,26 @@ class ValidSudoku2Page extends Component {
 		}));
 	}
 
-	showTests = () => <div>Tests</div>;
-	showCode = () => <div>Code</div>;
+	showTests = () => (
+		<div>
+			<h2>Tests -- Code</h2>
+			<p>Checking for duplicates is the main functionality 
+				that we are looking for here. But as a side benefit
+				we have found that getting rows, columns, and grids
+				in a similar way allows us to have some great code reuse.</p>
+			<Gist id="7c644f4c3e121f9d74b063f0ec5475e5" />
+		</div>
+	);
+
+	showCode = () => (
+		<div>
+			<h2>Codes -- Code</h2>
+			<p>Satisfying all of the tests left us with one 
+				massive class. Depending on how much functionality 
+				we add, this guy may be due for a refactor.</p>
+			<Gist id="98b9b8f18fe548a921da9cb76f5173bd" />
+		</div>
+	);
 
 	render() {
 		return (
@@ -74,28 +93,23 @@ class ValidSudoku2Page extends Component {
 				{
 						this.state.showTests ? this.showTests() : this.showCode()
 				}
-				<h2>Tests -- Code</h2>
-					<p>...</p>
-					{/* <Gist id="... test id" /> */}
-				<h2>Codes -- Code</h2>
-					<p>...</p>
-					{/* <Gist id="... code id" /> */}
 				<hr />
 				<h2>Passing Tests!</h2>
 					<p>Believe it or not, we actually have some 
-						passing tests here. It is nothing special,
-						but we are one step closer to having a 
-						programmatic way of identifying whether
+						passing tests here. The test 
+						results are too large for one screen. It is 
+						nothing special, but we are one
+						step closer to having a programmatic 
+						way of identifying whether
 						a sudoku board is valid. Just like in 
 						the last post, we aren't trying to focus 
 						too much on the code here but if you have 
-						suggestions, <a href="mailto:dude@treyhayhayhayyy.me">please let me know</a>.</p>
-					{/* <img src="..." alt="test output"/> */}
-				<h1>
+						suggestions, <a href="mailto:dude@treyhayhayhayyy.me">please let me know</a>.</p>					
+				<h2>
 					<Link to="/problems/valid-sudoku">Valid Sudoku</Link>
 					{" | "}
 					<Link to="/problems/valid-sudoku-3">Valid Sudoku - P3</Link>
-				</h1>
+				</h2>
 			</div>
 		);
 	}

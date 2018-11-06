@@ -117,11 +117,11 @@ class ValidSudokuPage extends Component {
                     base for our sudoku endeavors.</p>
                 <img src="https://lh3.googleusercontent.com/llcf0rBsNf1hYQqIuH2qs_DfZW_kfPrZgOXoU-1Mpm4SRZHimoM-YkFtSJJT2rY_Nko6yru_lFkDkodU3LZ4Iyn76ATxo1yJmUvueBFKZ5jwjd32zqr7RH1T04EXMqmqsf3JHnlZtPY=w2400" alt="test output"/>
                 <hr/>
-                <h1>
+                <h2>
                     <Link to="/problems/valid-sudoku-2">Valid Sudoku - P2</Link>
                     {" | "}
                     <Link to="/problems/valid-sudoku-3">Valid Sudoku - P3</Link>
-                </h1>
+                </h2>
             </div>
         );
     } 
