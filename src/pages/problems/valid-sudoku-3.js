@@ -10,7 +10,7 @@ const ValidSudoku3Page = () => (
 			<h2>Create Tests For It!</h2>
 			<h2>Test It!</h2>
 			<h2>Run It!</h2>
-			<h2>Conclusion</h2>
+			<h2>Conclusion...</h2>
 			<h2>
 				<Link to="/problems/valid-sudoku">Valid Sudoku</Link>
 				{" | "}
