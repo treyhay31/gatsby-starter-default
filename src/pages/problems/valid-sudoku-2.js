@@ -45,7 +45,7 @@ class ValidSudoku2Page extends Component {
 						would ever need for a sudoku game. The kind of tests that just make you 
 						think that unit testing isn't worth it. But these tests are a perfect 
 						starting point and will keep us grounded if we dare endeavor to attempt
-						some kind of crazy solution implementation! 
+						some kind of craziness! 
 					</p>
 				<br/>
 					<p>So, where were we? You best believe we have a few more tests needed before
@@ -65,7 +65,6 @@ class ValidSudoku2Page extends Component {
 						amount of numbers or inputs for sudoku is trivial but 
 						the structure of how we receive it must be clarified. 
 					</p>
-				<h2>I Do The Numbers... and the definitions</h2>
 					<p>The numbers could be given to us in a myriad of ways but for this example
 						we will say that the input will read like a book... an eBook, if you will. Game 
 						data will read in from left-to-right. See the image below to get the general idea.</p>
@@ -75,8 +74,8 @@ class ValidSudoku2Page extends Component {
 				<br/>
 					<p>Just like the graduates 
 						from <a href="https://www.youtube.com/watch?v=NQ-8IuUkJJc"><em>Derek Zoolander's Center For Kids Who Can't Read Good</em></a>, we
-						now have a firm understanding of how things are read. Which leads to the 
-						next step before we can write our tests. Problem definitions. If we do a poor 
+						now have a firm understanding of reading stuff. Which leads to the 
+						next step before we can write our tests. <strong>Problem definitions</strong>. If we do a poor 
 						job here, the rest of our sudoku lives will be miserable and full of confusion. 
 					</p>
 				<h2>Let's Reiterate</h2>
@@ -86,7 +85,8 @@ class ValidSudoku2Page extends Component {
 				<SudokuSvg />
 				<h2>Now Do The Tests...</h2>
 					<p>Observe the magnificence of these tests and the cleanliness of 
-						their implementing code! But honestly, stop making fun of me... this works, allegedly.
+						their implementing code! But honestly, stop making fun of me... this almost 
+						undoubtedly probably kind of works.
 						Checking for duplicates in the rows and the grids will force us to possibly 
 						raise one eyebrow. Meanwhile, finding duplicates in a grid will provide  </p>
 				<button onClick={this.onClick}>Show {this.state.showTests ? 'Tests' : 'Codes'}!</button>
@@ -102,7 +102,7 @@ class ValidSudoku2Page extends Component {
 						step closer to having a programmatic 
 						way of identifying whether
 						a sudoku board is valid. Just like in 
-						the last post, we aren't trying to focus 
+						the last post, we aren't focusing 
 						too much on the code here but if you have 
 						suggestions, <a href="mailto:dude@treyhayhayhayyy.me">please let me know</a>.</p>					
 				<h2>
